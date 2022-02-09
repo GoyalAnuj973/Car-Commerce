@@ -1,11 +1,45 @@
 .sample-component{
-    width: 800px;
-    height: 500px;
+    width: 1500px;
+    height: 900px;
     border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(/src/assets/images/Gradient.png), url(/src/assets/images/mercedes.jpg);
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .component-text{
-    text-decoration-line: underline;
+    font-size: 37px;
+    color: white;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
 }
+.search input[type=text]{
+    position:absolute;
+    left: 35%;
+    top:90%;
+    background-color:white;
+    color:grey;
+    width: 700px;
+    height:50px;
+    font-size: 30px;
+    border: none;
+}
+.search button{
+    position:absolute;
+    left: 66%;
+    top:90.5%;
+    background-color: #790E22;
+    color: #f2f2f2;
+    float: right;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 27px;
+    border: none;
+    cursor: pointer;
+} 

@@ -5,5 +5,5 @@
  * @see:https://github.com/facebook/create-react-app/issues/9992
  * */
 export const icons: { [key: string]: string } = {
-  logo: require("./logo.svg")?.default,
+  logo: require("./Logo.png")?.default,
 };
