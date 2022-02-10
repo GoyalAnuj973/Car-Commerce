@@ -1,4 +1,8 @@
-.sample-component{
+.home-component{
+    
+    
+}
+.home-component-one{
     width: 1500px;
     height: 900px;
     border: 1px solid black;
@@ -6,7 +10,7 @@
     justify-content: center;
     align-items: center;
     background-image: url(/src/assets/images/Gradient.png), url(/src/assets/images/mercedes.jpg);
-
+    
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -43,3 +47,48 @@
     border: none;
     cursor: pointer;
 } 
+.featured-cars{
+    position: static;
+    width: 177px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    /* identical to box height */
+
+    display: inline;
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 40px 0px;
+}
+.tab {
+    width: 600px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 55px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+#defaultOpen {
+    background-color: rgb(5, 5, 5);
+    color: white;
+}

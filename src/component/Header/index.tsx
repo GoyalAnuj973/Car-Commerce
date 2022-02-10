@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./index.css";
+import Logo from "../../assets/images/logo.svg";
 
 class Header extends React.Component {
   render() {
@@ -8,7 +9,7 @@ class Header extends React.Component {
       <div className="header-container">
         <div className="header-title">
           <div className="navbar">
-            <div className="header1"><img src="/src/assets/images/Logo.png"></img>XTREME<b>CARS</b></div>
+            <div className="header1"><img src={Logo} alt="logo" /></div>
             <div className="header2">NEW CARS</div>
             <div className="header3">USED CARS</div>
             <div className="header4">MY PROFILE</div>
