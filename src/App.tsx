@@ -5,6 +5,7 @@ import FirstTab from "./container/FirstTab";
 import SecondTab from "./container/SecondTab";
 import ThirdTab from "./container/ThirdTab";
 import ForthTab from "./container/ForthTab";
+import FooterComponent from "./component/FooterComponent";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/thirdTab" component={ThirdTab} />
           <Route path="/fourthTab" component={ForthTab} />
         </Switch>
+        <FooterComponent />
       </div>
     </BrowserRouter>
   );

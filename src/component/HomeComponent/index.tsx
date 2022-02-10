@@ -29,6 +29,7 @@ const HomeComponent = (props: IProps) => {
           <button className="tablinks">Upcoming</button>
         </div>
       </div>
+      
     </div>
   );
 };
