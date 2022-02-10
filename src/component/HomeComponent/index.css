@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/src/assets/images/Gradient.png), url(/src/assets/images/mercedes.jpg);
+    background-image: url(/src/assets/images/Gradient.png), url(/src/assets/images/mercedes.png);
     
     /* Center and scale the image nicely */
     background-position: center;
