@@ -1,11 +1,11 @@
 import React from "react";
-import SampleComponent from "../../component/SampleComponent";
+import HomeComponent from "../../component/HomeComponent";
 import "./index.css";
 
 const FirstTab = (props: any) => {
   return (
-    <div className="first-tab-container">
-      <SampleComponent name="Tab 1" color="#F0F8FF" />
+    <div className="sedan-container">
+      <HomeComponent name="Tab 1" color="#F0F8FF" />
     </div>
   );
 };

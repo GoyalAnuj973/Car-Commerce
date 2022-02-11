@@ -1,0 +1,161 @@
+.home-component{
+    
+    
+}
+.home-component-one{
+    width: 1500px;
+    height: 900px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/src/assets/images/Gradient.png), url(/src/assets/images/mercedes.png);
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.component-text{
+    font-size: 37px;
+    color: white;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+.search input[type=text]{
+    position:absolute;
+    left: 35%;
+    top:90%;
+    background-color:white;
+    color:grey;
+    width: 700px;
+    height:50px;
+    font-size: 30px;
+    border: none;
+}
+.search button{
+    position:absolute;
+    left: 66%;
+    top:90.5%;
+    background-color: #790E22;
+    color: #f2f2f2;
+    float: right;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 27px;
+    border: none;
+    cursor: pointer;
+} 
+.featured-cars{
+    position: static;
+    width: 177px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    /* identical to box height */
+
+    display: inline;
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 40px 0px;
+}
+.tab {
+    margin-left: 15px;
+    width: 600px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 55px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+#defaultOpen {
+    background-color: rgb(5, 5, 5);
+    color: white;
+}
+.viewallbutton{
+    margin-left: 1350px;
+    margin-top: 1px;
+    border: none;
+}
+.row{
+    width: 10px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.column {
+    /* margin-top: 50px;
+    float: left;
+    width: 40%;
+    margin-bottom: 16px;
+    padding: 0 8px; */
+}
+  
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+}
+  
+.car-image{
+    width: 335px;
+}  
+
+.container {
+    padding: 0 16px;
+}
+  
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+.title {
+    color: grey;
+}
+  
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 20%;
+    float: right;
+    
+}
+  
+.button:hover {
+    background-color: #555;
+}
+  
+@media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+}
