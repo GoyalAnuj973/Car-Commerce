@@ -93,13 +93,23 @@
     background-color: rgb(5, 5, 5);
     color: white;
 }
-
+.viewallbutton{
+    margin-left: 1350px;
+    margin-top: 1px;
+    border: none;
+}
+.row{
+    width: 10px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
 .column {
-    margin-top: 50px;
+    /* margin-top: 50px;
     float: left;
-    width: 23.5%;
+    width: 40%;
     margin-bottom: 16px;
-    padding: 0 8px;
+    padding: 0 8px; */
 }
   
 .card {
@@ -134,7 +144,9 @@
     background-color: white;
     text-align: center;
     cursor: pointer;
-    width: 100%;
+    width: 20%;
+    float: right;
+    
 }
   
 .button:hover {
