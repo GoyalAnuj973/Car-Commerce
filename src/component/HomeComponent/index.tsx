@@ -61,11 +61,12 @@ const HomeComponent = (props: IProps) => {
       <div className="row">
         <div className="column">
           {data.map((data : any) => (
-            <Link to={"/"} className="" key={data.id}>
-              <img className="" src={data.image}></img>
-              <div className="">
+            <Link to={"/"} className="card" key={data.id}>
+              <img className="car-image" src={data.image}></img>
+              <div className="container">
                 <p className="">{data.name}</p>
-                <p className="">{data.price}</p>
+                <p className="title">{data.price}</p>
+                <p><button className="button" ><img src={unionArrow} /></button></p>
               </div>
             </Link>
           )).slice(0,4)}
